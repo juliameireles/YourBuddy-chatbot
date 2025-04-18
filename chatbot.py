@@ -4,7 +4,7 @@ import random
 import os
 
 # Substitua pela sua chave de API Gemini
-genai.configure(api_key=os.getenv("SUA_GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 modelo = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
 
