@@ -11,27 +11,32 @@ modelo = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
 
 
 sugestoes_gerais = [
-    "Feche os olhos por 5 segundos e foque apenas no som da sua respiração, mesmo com o barulho ao redor.",
-    "Tente relaxar a mandíbula, os ombros e as mãos — tensionamos isso sem perceber.",
-    "Lembre-se: o que está ao seu redor é temporário. Respire fundo e repita mentalmente: 'Eu estou segura agora.'",
-    "Desvie sua atenção do caos ao redor e foque em algo pequeno e fixo — como um objeto no bolso ou uma cor no ambiente.",
-    "Coloque uma música ou som calmo com fone de ouvido, se possível, mesmo que seja por 1 minuto.",
-    "Faça 3 respirações lentas e conscientes.",
-    "Toque seu pulso ou aperte levemente sua mão. Isso pode ajudar a ancorar você no presente.",
-    "Feche os olhos por alguns segundos e pense em um lugar onde você se sente segura — visualize esse lugar.",
-    "Mentalize uma frase curta como 'Eu vou passar por isso', ou 'O barulho está fora, minha calma está dentro'.",
-    "Se puder, tire um tempinho para ir ao banheiro ou tomar uma água — são pequenas pausas que renovam.",
+     "Se puder, tome um banho quente com calma, prestando atenção na água tocando seu corpo.",
+    "Coloque uma música leve, deite em um lugar confortável e apenas respire por alguns minutos.",
+    "Escreva em um caderno como você está se sentindo — sem censura, só coloque pra fora.",
+    "Deite por 30 minutos, mesmo que não consiga dormir. Permita que seu corpo descanse.",
+    "Acenda uma vela ou incenso suave e fique em silêncio por alguns instantes, com os olhos fechados.",
+    "Beba algo quente, como um chá, e aproveite o momento presente sem pressa.",
+    "Faça alongamentos lentos, respeitando seus limites, prestando atenção em como seu corpo responde.",
+    "Assista um filme ou série leve, que te traga conforto — não precisa ser produtiva agora.",
+    "Desligue o celular por um tempo e se desconecte do excesso de estímulos. Seu mundo interior também merece atenção.",
+    "Abra a janela, respire o ar de fora, sinta a temperatura no seu rosto. Você está aqui, e está tudo bem.",
 ]
 
 
 
 # Sugestões específicas para lugares caóticos
 sugestoes_caoticas = [
-    "Relaxe a mandíbula, os ombros e as mãos. Você pode fazer isso agora mesmo, onde estiver.",
-    "Foque por 5 segundos em um objeto ao seu redor. Traga sua mente para o presente.",
+   "Relaxe a mandíbula, os ombros e as mãos. Você pode fazer isso agora mesmo, onde estiver.",
+    "Foque por 5 segundos em um objeto ao seu redor. Traga sua atenção pra ele e permita que sua mente respire.",
     "Repita mentalmente: 'Eu posso passar por isso. Minha calma está comigo.'",
-    "Feche os olhos por 5 segundos, mesmo com barulho. Só foque no som da sua respiração.",
-    "Se possível, coloque um fone e ouça um som que te traga paz — mesmo que seja só por 1 minuto.",
+    "Feche os olhos por 3 a 5 segundos (se for seguro). Mesmo no barulho, sua respiração pode ser seu refúgio.",
+    "Se possível, coloque um fone e ouça um som que te acalme — mesmo que seja só por 1 minuto.",
+    "Enquanto estiver parada, firme os pés no chão e sinta o apoio da terra sob você. Você está segura.",
+    "Solte o ar devagar pela boca como se estivesse suspirando. Esse gesto simples pode aliviar tensões escondidas.",
+    "Massageie levemente sua palma com o polegar. Esse toque sutil pode trazer conforto, mesmo em silêncio.",
+    "Mentalize um lugar calmo que você ama. Mesmo em meio ao caos, você pode se visitar internamente.",
+    "Incline levemente a cabeça para o lado, alongando o pescoço, e respire fundo. Pequenos gestos também cuidam de você."
 ]
 
 
