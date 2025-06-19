@@ -6,7 +6,7 @@ import os
 # Substitua pela sua chave de API Gemini
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-modelo = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
+modelo = genai.GenerativeModel(model_name="gemini-pro")
 
 
 
